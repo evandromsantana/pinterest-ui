@@ -1,10 +1,10 @@
 import { View, StyleSheet } from "react-native";
+import { useState } from "react";
 
 import { FILTERS } from "@//utils/filters";
 
 import { theme } from "@//theme";
 import { Filters } from "@//components/Filters";
-import { useState } from "react";
 
 export default function Home() {
   const [filter, setFilter] = useState(FILTERS[0]);
@@ -29,3 +29,5 @@ const styles = StyleSheet.create({
     fontFamily: theme.fontFamily.bold,
   },
 });
+
+//1:03:28
